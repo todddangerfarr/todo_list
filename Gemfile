@@ -31,9 +31,10 @@ group :development, :test do
   gem 'rspec-rails', '~> 2.0'
 end
 
-#Added from Treehouse video 
+#Added from Treehouse video
 group :test do
   gem 'capybara', '~> 2.1.0'
+  gem 'shoulda-matchers', '~> 2.8.0'
 
 end
 
